@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_types",
+  "info": {
+    "singularName": "main-type",
+    "pluralName": "main-types",
+    "displayName": "Main Type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::type.type",
+      "mappedBy": "main_type"
+    }
+  }
+}
