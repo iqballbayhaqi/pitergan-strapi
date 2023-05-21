@@ -20,6 +20,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::project.project"
+    },
+    "main_location": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::main-location.main-location"
     }
   }
 }

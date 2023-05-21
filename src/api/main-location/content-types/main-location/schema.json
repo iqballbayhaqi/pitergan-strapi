@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_locations",
+  "info": {
+    "singularName": "main-location",
+    "pluralName": "main-locations",
+    "displayName": "Main Location"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "locations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::location.location"
+    }
+  }
+}
