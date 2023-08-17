@@ -5,7 +5,7 @@ export default ({ env }) => ({
   'users-permissions': {
     config: {
       jwt: {
-        jwtSecret: env('STRAPI_JWT_SECRET') || crypto.randomBytes(16).toString('base64')
+        jwtSecret: env('JWT_SECRET') || crypto.randomBytes(16).toString('base64')
       },
     },
   },
