@@ -15,6 +15,7 @@
     "@strapi/plugin-users-permissions": "4.10.2",
     "@strapi/strapi": "4.10.2",
     "mysql": "2.18.1",
+    "pg": "^8.11.3",
     "strapi-plugin-populate-deep": "^2.0.0"
   },
   "author": {
