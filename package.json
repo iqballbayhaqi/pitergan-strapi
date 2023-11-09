@@ -16,7 +16,8 @@
     "@strapi/strapi": "4.10.2",
     "mysql": "2.18.1",
     "pg": "^8.11.3",
-    "strapi-plugin-populate-deep": "^2.0.0"
+    "strapi-plugin-populate-deep": "^2.0.0",
+    "strapi-provider-upload-do": "^3.6.9"
   },
   "author": {
     "name": "A Strapi developer"
