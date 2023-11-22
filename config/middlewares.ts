@@ -1,5 +1,5 @@
 export default [
-  'strapi::errors',
+  "strapi::errors",
   {
     name: "strapi::security",
     config: {
@@ -11,20 +11,25 @@ export default [
             "'self'",
             "data:",
             "blob:",
-            "*.digitaloceanspaces.com"
+            "https://pitergan-files.sgp1.digitaloceanspaces.com",
           ],
-          "media-src": ["'self'", "data:", "blob:"],
+          "media-src": [
+            "'self'",
+            "data:",
+            "blob:",
+            "https://pitergan-files.sgp1.digitaloceanspaces.com",
+          ],
           upgradeInsecureRequests: null,
         },
       },
     },
   },
-  'strapi::cors',
-  'strapi::poweredBy',
-  'strapi::logger',
-  'strapi::query',
-  'strapi::body',
-  'strapi::session',
-  'strapi::favicon',
-  'strapi::public',
+  "strapi::cors",
+  "strapi::poweredBy",
+  "strapi::logger",
+  "strapi::query",
+  "strapi::body",
+  "strapi::session",
+  "strapi::favicon",
+  "strapi::public",
 ];
