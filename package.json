@@ -31,6 +31,19 @@
   },
   "license": "MIT",
   "resolutions": {
-    "tmp": "0.2.7"
+    "tmp": "0.2.7",
+    "shell-quote": "1.8.4",
+    "elliptic": "6.6.1",
+    "handlebars": "4.7.9",
+    "koa": "2.16.4",
+    "@babel/traverse": "7.23.2",
+    "semver": "7.6.0",
+    "word-wrap": "1.2.5",
+    "tough-cookie": "4.1.4",
+    "braces": "3.0.3",
+    "ws": "8.17.1",
+    "axios": "1.8.2",
+    "ip": "2.0.1",
+    "loader-utils": "1.4.2"
   }
 }
